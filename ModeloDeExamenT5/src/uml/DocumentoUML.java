@@ -8,7 +8,7 @@
 //	 # encendido      : boolean // apagado o encendido
 //
 //	 ---------------------------------------------------------------------
-//	 + DispositivosInteligentes(nombreComercial, percio, encendido)
+//	 + Dispositivo(nombreComercial, percio, encendido)
 //	 + encender ()     :  void
 //	 + apagar ()       : void
 //	 + isEncendido ()  : boolean
