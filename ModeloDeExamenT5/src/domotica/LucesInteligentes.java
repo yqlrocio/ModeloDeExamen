@@ -22,7 +22,7 @@ public class LucesInteligentes extends Dispositivo implements Ajustable {
         if (!isEncendido()) {
             throw new DispositivoApagadoException("Error: el dispositivo está apagado.");
         }
-        brillo = Math.min(100, brillo + 10);
+        brillo = Math.min(100, brillo + 10); // Aumenta el brillo en 10, pero sin pasar de 100
     }
 
     @Override
@@ -30,7 +30,7 @@ public class LucesInteligentes extends Dispositivo implements Ajustable {
         if (!isEncendido()) {
             throw new DispositivoApagadoException("Error: el dispositivo está apagado.");
         }
-        brillo = Math.max(0, brillo - 10);
+        brillo = Math.max(0, brillo - 10);  // Disminuye el brillo en 10, pero sin pasar de 0
     }
 
     @Override
