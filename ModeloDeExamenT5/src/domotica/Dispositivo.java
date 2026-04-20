@@ -63,8 +63,10 @@ package domotica;
 	     */
 	    @Override
 	    public boolean equals(Object obj) {
-	        if (this == obj) return true;
-	        if (!(obj instanceof Dispositivo)) return false;
+	        if (this == obj) 
+	        	return true;
+	        if (!(obj instanceof Dispositivo)) 
+	        	return false;
 
 	        Dispositivo d = (Dispositivo) obj;
 	        return nombreComercial.equals(d.nombreComercial) &&
