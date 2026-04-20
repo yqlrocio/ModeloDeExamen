@@ -50,8 +50,8 @@ package domotica;
 	     *         valor positivo si este dispositivo es más caro
 	     */
 	    @Override
-	    public int compareTo(Dispositivo o) {
-	        return Double.compare(this.precio, o.precio);
+	    public int compareTo(Dispositivo otro) {
+	        return Double.compare(this.precio, otro.precio);
 	    }
 
 	    /**
